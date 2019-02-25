@@ -1,18 +1,25 @@
+import regex
 from itertools import count
 
 
-def read_file(filename):
+def read_file(filename, fpga_ic):
     pindb = dict()
     with open(filename, "r") as f:
         for line in f:
-            pin, name, net = line.strip().split(";;")
-            if net in pindb:
-                if isinstance(pindb[net], str):
-                    pindb[net] = [pindb[net], pin]
-                else:
-                    pindb[net].append(pin)
-            else:
-                pindb[net] = pin
+            line = line.strip()
+            if line:
+                m = regex.fullmatch("((\\\\([^\\\\]+)\\\\)|(\\*))[ ]+(?:\\\\([^\\\\]+)\\\\-\\\\([^\\\\]+)\\\\[ ]*)+", line)
+                if not m.group(4):  # m.group(4) -> line starting with *
+                    net = m.group(3)
+                for ic, pin in zip(m.captures(5), m.captures(6)):
+                    if ic == fpga_ic:
+                        if net in pindb:
+                            if isinstance(pindb[net], str):
+                                pindb[net] = [pindb[net], pin]
+                            else:
+                                pindb[net].append(pin)
+                        else:
+                            pindb[net] = pin
     return pindb
 
 

@@ -1,0 +1,256 @@
+\$1N2229\  \R35\-\2\ \IC27\-\A6\ 
+\$1N2304\  \R36\-\2\ \IC27\-\E12\ 
+\$1N2714\  \R37\-\2\ \OSC1\-\3\ 
+\$1N3847\  \R38\-\2\ \IC27\-\R12\ 
+\$1N4645\  \R39\-\2\ \IC27\-\K16\ 
+\$1N4830\  \OSC2\-\6\ \OSC2\-\2\ \C158\-\2\ \L34\-\1\ 
+\$1N5874\  \R46\-\2\ \IC27\-\K15\ 
+\$1N629_16\  \R34\-\2\ \IC27\-\R11\ \IC27\-\F13\ 
+\$1N8317\  \R37\-\1\ \R50\-\2\ \IC27\-\R2\ 
+\$1N8454\  \T1\-\3\ \LD1\-\1\ 
+\$1N8455\  \LD1\-\2\ \R243\-\1\ 
+\$1N9113\  \R52\-\2\ \IC27\-\J18\ 
+\ADF_CE\  \IC27\-\D16\ 
+\ADF_CLK\  \IC27\-\E16\ 
+\ADF_DATA\  \IC27\-\D15\ 
+\ADF_LE\  \IC27\-\D14\ 
+\ADF_MUXOUT\  \IC28\-\9\ 
+\ADF_MUXOUT_2V5\  \IC28\-\3\ \IC27\-\V11\ 
+\CDR_CLK_CLEAN1_N\  \IC27\-\B5\ 
+\CDR_CLK_CLEAN1_P\  \IC27\-\B6\ 
+\CDR_CLK_CLEAN2_N\  \R245\-\2\ \IC27\-\T15\ 
+\CDR_CLK_CLEAN2_P\  \R244\-\2\ \IC27\-\T14\ 
+\DAC1_IRQn\  \IC27\-\V14\ 
+\DAC1_SPI_CSn\  \IC27\-\U14\ 
+\DAC1_SPI_SCLK\  \IC27\-\T13\ 
+\DAC1_SPI_SDIO\  \IC27\-\V17\ 
+\DAC1_SPI_SDO\  \IC27\-\R13\ 
+\DAC1_TXEN0\  \IC27\-\V16\ 
+\DAC1_TXEN1\  \IC27\-\U16\ 
+\DAC2_IRQn\  \IC27\-\K17\ 
+\DAC2_RESETn\  \IC27\-\U15\ 
+\DAC2_SPI_CSn\  \IC27\-\K18\ 
+\DAC2_SPI_SCLK\  \IC27\-\L18\ 
+\DAC2_SPI_SDIO\  \IC27\-\J15\ 
+\DAC2_SPI_SDO\  \IC27\-\J16\ 
+\DAC2_TXEN0\  \IC27\-\J14\ 
+\DAC2_TXEN1\  \IC27\-\L14\ 
+\DAC_CLK_SRC_SEL\  \IC28\-\8\ 
+\DAC_CLK_SRC_SEL_2V5\  \IC28\-\4\ \IC27\-\U10\ 
+\DELAY_ENn\  \IC29\-\7\ 
+\DELAY_ENn_2V5\  \IC29\-\5\ \IC27\-\V13\ 
+\DELAY_SCLK\  \IC29\-\8\ 
+\DELAY_SCLK_2V5\  \IC29\-\4\ \IC27\-\T12\ 
+\DELAY_SDIN\  \IC29\-\9\ 
+\DELAY_SDIN_2V5\  \IC29\-\3\ \IC27\-\U12\ 
+\DELAY_SLOAD\  \IC29\-\10\ 
+\DELAY_SLOAD_2V5\  \IC29\-\2\ \IC27\-\U11\ 
+\DIO0\  \J15\-\1\ \IC27\-\P18\ 
+\DIO1\  \J15\-\2\ \IC27\-\N18\ 
+\DIO2\  \J15\-\3\ \IC27\-\N17\ 
+\DIO3\  \J15\-\4\ \IC27\-\N16\ 
+\DIO4\  \J15\-\5\ \IC27\-\N14\ 
+\DIO5\  \J15\-\6\ \IC27\-\M14\ 
+\DIO6\  \J15\-\7\ \IC27\-\M15\ 
+\DIO7\  \J15\-\8\ \IC27\-\P15\ 
+\DIO8\  \J15\-\9\ \IC27\-\R16\ 
+\EN_PWR_ADF4356\  \IC27\-\M4\ 
+\EN_PWR_HMC830\  \IC27\-\P1\ 
+\FPGA_CFG_CCLK\  \IC27\-\E8\ 
+\FPGA_CFG_DIN\  \R39\-\1\ 
+\FPGA_CFG_DONE\  \IC27\-\F12\ 
+\FPGA_CFG_INIT_B\  \IC27\-\T10\ 
+\FPGA_CFG_PROGRAM_B\  \IC27\-\P10\ 
+\GND\  \R53\-\1\ \C149\-\1\ \R42\-\1\ \T1\-\2\ \IC28\-\6\ \J13\-\7\ 
+*  \IC29\-\6\ \C168\-\1\ \J14\-\7\ \J14\-\1\ \J13\-\4\ \R47\-\1\ 
+*  \R40\-\1\ \J13\-\1\ \OSC1\-\2\ \C169\-\1\ \R41\-\1\ \J15\-\12\ 
+*  \R51\-\1\ \J14\-\4\ \R50\-\1\ \C167\-\2\ \OSC2\-\3\ \C156\-\1\ 
+*  \C158\-\1\ \C157\-\1\ 
+\HMC830_SPI_SEN\  \IC27\-\C8\ 
+\HMC_RESET\  \IC27\-\E17\ 
+\HMC_SPI_GPIO\  \IC27\-\D8\ 
+\HMC_SPI_SCLK\  \IC27\-\A17\ 
+\HMC_SPI_SDATA\  \IC27\-\B16\ 
+\HMC_SPI_SDO\  \IC27\-\D9\ 
+\HW_ID0\  \R42\-\2\ \R49\-\2\ \IC27\-\U1\ 
+\HW_ID1\  \R43\-\2\ \R41\-\2\ \IC27\-\U2\ 
+\HW_ID2\  \R44\-\2\ \R40\-\2\ \IC27\-\T2\ 
+\HW_ID3\  \R45\-\2\ \IC27\-\R3\ \R53\-\2\ 
+\LED\  \T1\-\1\ \R51\-\2\ \IC27\-\P16\ 
+\LVDS25_N\  \IC27\-\T18\ 
+\LVDS25_P\  \IC27\-\R18\ 
+\LVDS26_CC_N\  \IC27\-\R15\ 
+\LVDS26_CC_P\  \IC27\-\P14\ 
+\LVDS27_N\  \IC27\-\U17\ 
+\LVDS27_P\  \IC27\-\T17\ 
+\MEZZ0_IO0\  \IC27\-\D18\ 
+\MEZZ0_IO1\  \IC27\-\C17\ 
+\MEZZ0_IO10\  \IC27\-\F14\ 
+\MEZZ0_IO11\  \IC27\-\H17\ 
+\MEZZ0_IO12\  \IC27\-\H18\ 
+\MEZZ0_IO13\  \IC27\-\F17\ 
+\MEZZ0_IO14\  \IC27\-\E18\ 
+\MEZZ0_IO15\  \IC27\-\H14\ 
+\MEZZ0_IO2\  \IC27\-\C18\ 
+\MEZZ0_IO3\  \IC27\-\G17\ 
+\MEZZ0_IO4\  \IC27\-\F18\ 
+\MEZZ0_IO5\  \IC27\-\H16\ 
+\MEZZ0_IO6\  \IC27\-\G16\ 
+\MEZZ0_IO7\  \IC27\-\G15\ 
+\MEZZ0_IO8\  \IC27\-\F15\ 
+\MEZZ0_IO9\  \IC27\-\G14\ 
+\MEZZ0_LVDS0_N\  \IC27\-\V7\ 
+\MEZZ0_LVDS0_P\  \IC27\-\V8\ 
+\MEZZ0_LVDS1_N\  \IC27\-\V6\ 
+\MEZZ0_LVDS1_P\  \IC27\-\U7\ 
+\MEZZ0_LVDS2_N\  \IC27\-\T7\ 
+\MEZZ0_LVDS2_P\  \IC27\-\R7\ 
+\MEZZ0_LVDS3_N\  \IC27\-\T5\ 
+\MEZZ0_LVDS3_P\  \IC27\-\R5\ 
+\MEZZ0_LVDS4_N\  \IC27\-\U5\ 
+\MEZZ0_LVDS4_P\  \IC27\-\U6\ 
+\MEZZ0_LVDS5_N\  \IC27\-\P5\ 
+\MEZZ0_LVDS5_P\  \IC27\-\P6\ 
+\MEZZ0_LVDS6_N\  \IC27\-\V4\ 
+\MEZZ0_LVDS6_P\  \IC27\-\U4\ 
+\MEZZ0_LVDS7_N\  \IC27\-\T3\ 
+\MEZZ0_LVDS7_P\  \IC27\-\T4\ 
+\MEZZ1_IO0\  \IC27\-\B9\ 
+\MEZZ1_IO1\  \IC27\-\A9\ 
+\MEZZ1_IO10\  \IC27\-\A13\ 
+\MEZZ1_IO11\  \IC27\-\A14\ 
+\MEZZ1_IO12\  \IC27\-\C14\ 
+\MEZZ1_IO13\  \IC27\-\B15\ 
+\MEZZ1_IO14\  \IC27\-\B14\ 
+\MEZZ1_IO15\  \IC27\-\A15\ 
+\MEZZ1_IO2\  \IC27\-\C11\ 
+\MEZZ1_IO3\  \IC27\-\B11\ 
+\MEZZ1_IO4\  \IC27\-\B10\ 
+\MEZZ1_IO5\  \IC27\-\A10\ 
+\MEZZ1_IO6\  \IC27\-\D11\ 
+\MEZZ1_IO7\  \IC27\-\C12\ 
+\MEZZ1_IO8\  \IC27\-\B12\ 
+\MEZZ1_IO9\  \IC27\-\A12\ 
+\MEZZ1_LVDS0_N\  \IC27\-\N6\ 
+\MEZZ1_LVDS0_P\  \IC27\-\M6\ 
+\MEZZ1_LVDS1_N\  \IC27\-\M1\ 
+\MEZZ1_LVDS1_P\  \IC27\-\M2\ 
+\MEZZ1_LVDS2_N\  \IC27\-\M5\ 
+\MEZZ1_LVDS2_P\  \IC27\-\L5\ 
+\MEZZ1_LVDS3_N\  \IC27\-\L3\ 
+\MEZZ1_LVDS3_P\  \IC27\-\L4\ 
+\MEZZ1_LVDS4_N\  \IC27\-\L2\ 
+\MEZZ1_LVDS4_P\  \IC27\-\K3\ 
+\MEZZ1_LVDS5_N\  \IC27\-\K1\ 
+\MEZZ1_LVDS5_P\  \IC27\-\K2\ 
+\MEZZ1_LVDS6_N\  \IC27\-\J4\ 
+\MEZZ1_LVDS6_P\  \IC27\-\J5\ 
+\MEZZ1_LVDS7_N\  \IC27\-\K5\ 
+\MEZZ1_LVDS7_P\  \IC27\-\K6\ 
+\MGTAVTT\  \R35\-\1\ 
+\P2V5F\  \IC29\-\1\ \IC28\-\1\ \J15\-\11\ \R45\-\1\ \C156\-\2\ \R43\-\1\ 
+*  \IC29\-\12\ \C168\-\2\ \R52\-\1\ \R44\-\1\ \R48\-\1\ \IC28\-\12\ 
+*  \R49\-\1\ 
+\P3V3F\  \IC28\-\11\ \C149\-\2\ \R34\-\1\ \R36\-\1\ \OSC1\-\4\ \C157\-\2\ 
+*  \R38\-\1\ \R243\-\2\ \C169\-\2\ \L34\-\2\ \OSC1\-\1\ \IC29\-\11\ 
+\REC_CLOCK_N\  \IC27\-\M17\ 
+\REC_CLOCK_P\  \IC27\-\M16\ 
+\REF_CLK_SRC_EXT_SEL\  \IC28\-\7\ 
+\REF_CLK_SRC_EXT_SEL_2V5\  \IC28\-\5\ \IC27\-\V9\ 
+\RESETn\  \R46\-\1\ 
+\RTM_FPGA_GTP_CLKC_N\  \C154\-\2\ \IC27\-\D6\ 
+\RTM_FPGA_GTP_CLKC_P\  \C155\-\2\ \IC27\-\D5\ 
+\RTM_FPGA_GTP_CLK_N\  \OSC2\-\5\ \C154\-\1\ 
+\RTM_FPGA_GTP_CLK_P\  \C155\-\1\ \OSC2\-\4\ 
+\RTM_FPGA_GTP_Rx0_N\  \IC27\-\E3\ 
+\RTM_FPGA_GTP_Rx0_P\  \IC27\-\E4\ 
+\RTM_FPGA_GTP_Rx1_N\  \C161\-\1\ \IC27\-\A3\ 
+\RTM_FPGA_GTP_Rx1_P\  \C162\-\1\ \IC27\-\A4\ 
+\RTM_FPGA_GTP_Rx2_N\  \C152\-\2\ \IC27\-\C3\ 
+\RTM_FPGA_GTP_Rx2_P\  \C153\-\2\ \IC27\-\C4\ 
+\RTM_FPGA_GTP_Rx3_N\  \C150\-\2\ \IC27\-\G3\ 
+\RTM_FPGA_GTP_Rx3_P\  \C151\-\2\ \IC27\-\G4\ 
+\RTM_FPGA_GTP_Tx0C_N\  \C159\-\2\ \IC27\-\H1\ 
+\RTM_FPGA_GTP_Tx0C_P\  \C160\-\2\ \IC27\-\H2\ 
+\RTM_FPGA_GTP_Tx0_N\  \C159\-\1\ 
+\RTM_FPGA_GTP_Tx0_P\  \C160\-\1\ 
+\RTM_FPGA_GTP_Tx1C_N\  \C161\-\2\ \IC27\-\F1\ 
+\RTM_FPGA_GTP_Tx1C_P\  \C162\-\2\ \IC27\-\F2\ 
+\RTM_FPGA_GTP_Tx2C_N\  \C163\-\2\ \IC27\-\D1\ 
+\RTM_FPGA_GTP_Tx2C_P\  \C164\-\2\ \IC27\-\D2\ 
+\RTM_FPGA_GTP_Tx2_N\  \C163\-\1\ \J14\-\5\ 
+\RTM_FPGA_GTP_Tx2_P\  \C164\-\1\ \J14\-\6\ 
+\RTM_FPGA_GTP_Tx3C_N\  \C165\-\2\ \IC27\-\B1\ 
+\RTM_FPGA_GTP_Tx3C_P\  \C166\-\2\ \IC27\-\B2\ 
+\RTM_FPGA_GTP_Tx3_N\  \C165\-\1\ \J13\-\3\ 
+\RTM_FPGA_GTP_Tx3_P\  \C166\-\1\ \J13\-\2\ 
+\RTM_FPGA_SCL\  \IC27\-\D13\ 
+\RTM_FPGA_SDA\  \IC27\-\C13\ 
+\RTM_UART_Rx\  \IC27\-\B17\ 
+\RTM_UART_Tx\  \IC27\-\C16\ 
+\Rx2_C_N\  \C152\-\1\ \J14\-\3\ 
+\Rx2_C_P\  \C153\-\1\ \J14\-\2\ 
+\Rx3_C_N\  \C150\-\1\ \J13\-\5\ 
+\Rx3_C_P\  \C151\-\1\ \J13\-\6\ 
+\SI5324_INT_ALM\  \IC28\-\10\ 
+\SI5324_INT_ALM_2V5\  \IC28\-\2\ \IC27\-\U9\ 
+\SI5324_RST\  \IC27\-\C9\ 
+\TCK\  \IC27\-\F8\ 
+\TDI\  \IC27\-\T9\ 
+\TDO\  \IC27\-\T8\ 
+\TMS\  \IC27\-\R8\ 
+\Vbias_1.25V\  \R47\-\2\ \C167\-\1\ \R48\-\2\ \R245\-\1\ \R244\-\1\ 
+
+%page=Sayma_RTM!$1I3128
+\$1N5549\  \C288\-\2\ \L35\-\2\ \IC27\-\J9\ 
+\$1N5551\  \IC27\-\J10\ \C288\-\1\ \L36\-\2\ 
+\$1N6047\  \C289\-\2\ \IC27\-\K10\ 
+\$1N6049\  \C289\-\1\ \IC27\-\L9\ 
+\FPGA_DXN\  \IC27\-\M9\ 
+\FPGA_DXP\  \IC27\-\M10\ 
+\GND\  \C229\-\1\ \C240\-\1\ \C261\-\1\ \C264\-\1\ \C266\-\1\ \C239\-\1\ 
+*  \IC27\-\F6\ \C256\-\1\ \IC27\-\M12\ \C230\-\1\ \C233\-\1\ \C241\-\1\ 
+*  \C249\-\1\ \IC27\-\C15\ \IC27\-\U3\ \C253\-\1\ \IC27\-\B3\ \IC27\-\E7\ 
+*  \C231\-\1\ \IC27\-\G11\ \IC27\-\M8\ \C234\-\1\ \C272\-\1\ \IC27\-\B7\ 
+*  \C237\-\1\ \C251\-\1\ \C244\-\1\ \IC27\-\E9\ \C232\-\1\ \IC27\-\A18\ 
+*  \C248\-\1\ \IC27\-\H5\ \IC27\-\J3\ \C255\-\1\ \C254\-\1\ \C282\-\1\ 
+*  \C236\-\1\ \C270\-\1\ \IC27\-\N11\ \C243\-\1\ \C258\-\1\ \C247\-\1\ 
+*  \C259\-\1\ \IC27\-\J11\ \C252\-\1\ \C287\-\1\ \IC27\-\K9\ \C235\-\1\ 
+*  \IC27\-\A1\ \C242\-\1\ \IC27\-\C7\ \IC27\-\N7\ \C250\-\1\ \IC27\-\G1\ 
+*  \C238\-\1\ \C245\-\1\ \C267\-\1\ \C257\-\1\ \IC27\-\F4\ \IC27\-\J13\ 
+*  \IC27\-\K12\ \C260\-\1\ \C286\-\1\ \IC27\-\V1\ \C246\-\1\ \IC27\-\G6\ 
+*  \C263\-\1\ \IC27\-\L10\ \C262\-\1\ \IC27\-\H10\ \C265\-\1\ \IC27\-\V10\ 
+*  \IC27\-\G13\ \IC27\-\K8\ \C268\-\1\ \C274\-\1\ \IC27\-\E6\ \C269\-\1\ 
+*  \C273\-\1\ \IC27\-\B18\ \IC27\-\G7\ \C275\-\1\ \C278\-\1\ \IC27\-\U13\ 
+*  \C276\-\1\ \IC27\-\D12\ \IC27\-\B8\ \C271\-\1\ \C283\-\1\ \IC27\-\A11\ 
+*  \IC27\-\H8\ \C277\-\1\ \C279\-\1\ \IC27\-\A5\ \IC27\-\F16\ \IC27\-\J2\ 
+*  \C280\-\1\ \C281\-\1\ \IC27\-\P2\ \C284\-\1\ \IC27\-\C6\ \IC27\-\D4\ 
+*  \C285\-\1\ \C514\-\1\ \IC27\-\N5\ \L35\-\1\ \IC27\-\R9\ \IC27\-\A7\ 
+*  \IC27\-\L7\ \IC27\-\A8\ \IC27\-\H3\ \IC27\-\T16\ \IC27\-\C2\ \IC27\-\D3\ 
+*  \IC27\-\G5\ \IC27\-\L1\ \IC27\-\D7\ \IC27\-\H4\ \IC27\-\J1\ \IC27\-\E2\ 
+*  \IC27\-\J17\ \IC27\-\F10\ \IC27\-\K4\ \IC27\-\J7\ \IC27\-\H6\ \IC27\-\G9\ 
+*  \IC27\-\H12\ \IC27\-\K14\ \IC27\-\L11\ \IC27\-\L13\ \IC27\-\V18\ \IC27\-\N13\ 
+*  \IC27\-\N15\ \IC27\-\M18\ \IC27\-\P8\ \IC27\-\N9\ \IC27\-\P12\ \IC27\-\T6\ 
+\MGTAVCC\  \C229\-\2\ \IC27\-\B4\ \IC27\-\E5\ \C230\-\2\ \IC27\-\C5\ \C231\-\2\ 
+*  \C232\-\2\ \IC27\-\F5\ 
+\MGTAVTT\  \C236\-\2\ \IC27\-\E1\ \C234\-\2\ \C235\-\2\ \IC27\-\A2\ \C233\-\2\ 
+*  \C237\-\2\ \IC27\-\F3\ \IC27\-\G2\ \IC27\-\C1\ 
+\P1V0\  \C243\-\2\ \IC27\-\M7\ \C249\-\2\ \IC27\-\N10\ \IC27\-\J8\ \IC27\-\N12\ 
+*  \C246\-\2\ \C248\-\2\ \IC27\-\P9\ \C250\-\2\ \C254\-\2\ \C261\-\2\ 
+*  \C259\-\2\ \IC27\-\J12\ \C245\-\2\ \C253\-\2\ \IC27\-\N8\ \C252\-\2\ 
+*  \IC27\-\G8\ \IC27\-\F9\ \C256\-\2\ \C260\-\2\ \C244\-\2\ \C251\-\2\ 
+*  \IC27\-\M11\ \C247\-\2\ \C255\-\2\ \IC27\-\H9\ \C257\-\2\ \C514\-\2\ 
+*  \IC27\-\H7\ \IC27\-\K7\ \C258\-\2\ \IC27\-\L12\ \IC27\-\K11\ \IC27\-\L8\ 
+*  \IC27\-\F7\ \IC27\-\P11\ 
+\P2V5F\  \C270\-\2\ \C267\-\2\ \C266\-\2\ \C280\-\2\ \IC27\-\R4\ \C265\-\2\ 
+*  \C284\-\2\ \L36\-\1\ \IC27\-\L16\ \IC27\-\V5\ \C268\-\2\ \C269\-\2\ 
+*  \IC27\-\P17\ \IC27\-\T1\ \C281\-\2\ \IC27\-\R14\ \IC27\-\T11\ \IC27\-\U18\ 
+*  \IC27\-\L6\ \C282\-\2\ \C279\-\2\ \C278\-\2\ \IC27\-\U8\ \IC27\-\M3\ 
+*  \C283\-\2\ \C285\-\2\ \IC27\-\E11\ \IC27\-\V15\ \IC27\-\P7\ 
+\P3V3F\  \IC27\-\R10\ \IC27\-\E14\ \C274\-\2\ \C276\-\2\ \C272\-\2\ \C287\-\2\ 
+*  \C275\-\2\ \C273\-\2\ \IC27\-\E10\ \IC27\-\H15\ \C271\-\2\ \IC27\-\G18\ 
+*  \C277\-\2\ \IC27\-\B13\ \IC27\-\C10\ \IC27\-\D17\ \C286\-\2\ \IC27\-\A16\ 
+\VCCAUX\  \C242\-\2\ \C240\-\2\ \C238\-\2\ \C241\-\2\ \C239\-\2\ \IC27\-\K13\ 
+*  \IC27\-\M13\ \IC27\-\H13\ \IC27\-\P13\ \IC27\-\G12\ 
+\VCCBRAM\  \C263\-\2\ \C262\-\2\ \C264\-\2\ \IC27\-\F11\ \IC27\-\H11\ \IC27\-\G10\ 
+

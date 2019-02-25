@@ -1,9 +1,9 @@
 import pin_utils as pu
 
-pindb = pu.read_file("Metlino_FPGA_signals.csv")
+pindb = pu.read_file("Metlino_MCH_pins.txt", "IC33")
 
 pu.print_section("50MHz oscillator")
-print("""("clk50", 0, Pins("{clk}"), IOStandard("LVCMOS33"))""".format(clk=pindb["$4N5660"]))
+print("""("clk50", 0, Pins("{clk}"), IOStandard("LVCMOS33"))""".format(clk=pindb["CLK_50M"]))
 
 pu.print_section("Debug serial")
 print("""Subsignal("tx", Pins("{tx}")),
@@ -18,7 +18,7 @@ pu.print_ddr3_decl(
     ras_n=pindb["DDR3_64_RAS_N"],
     cas_n=pindb["DDR3_64_CAS_N"],
     we_n=pindb["DDR3_64_WE_N"],
-    cs_n=pindb["DDR3_64_CE0_N"],
+    cs_n=pindb["DDR3_64_CS_N"],
     dm=pu.get_bus(pindb, "DDR3_64_DM"),
     dq=pu.get_bus(pindb, "DDR3_64_DQ"),
     dqs=pu.get_differential_bus(pindb, "DDR3_64_DQS"),
