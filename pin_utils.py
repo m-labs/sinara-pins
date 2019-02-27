@@ -1,9 +1,21 @@
 import regex
+import openpyxl
 from itertools import count
 
 
+class PinDB(dict):
+    def add_pin(self, net, pin):
+        if net in self:
+            if isinstance(self[net], str):
+                self[net] = [self[net], pin]
+            else:
+                self[net].append(pin)
+        else:
+            self[net] = pin
+
+
 def read_file(filename, fpga_ic):
-    pindb = dict()
+    pindb = PinDB()
     with open(filename, "r") as f:
         for line in f:
             line = line.strip()
@@ -13,13 +25,19 @@ def read_file(filename, fpga_ic):
                     net = m.group(3)
                 for ic, pin in zip(m.captures(5), m.captures(6)):
                     if ic == fpga_ic:
-                        if net in pindb:
-                            if isinstance(pindb[net], str):
-                                pindb[net] = [pindb[net], pin]
-                            else:
-                                pindb[net].append(pin)
-                        else:
-                            pindb[net] = pin
+                        pindb.add_pin(net, pin)
+    return pindb
+
+
+def read_file_xlsx(filename):
+    pindb = PinDB()
+    wb = openpyxl.load_workbook(filename)
+    ws = wb.active
+    values = iter(ws.values)
+    next(values)
+    next(values)
+    for pin, _, net, _, _, _, _ in values:
+        pindb.add_pin(net, pin)
     return pindb
 
 
