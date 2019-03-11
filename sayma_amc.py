@@ -1,6 +1,6 @@
 import pin_utils as pu
 
-pindb = pu.read_file("Sayma_AMC_pins.txt", "IC37")
+pindb = pu.read_file_xlsx("Sayma_AMC.xlsx")
 
 pu.print_section("50MHz oscillator")
 print("""("clk50", 0, Pins("{clk}"), IOStandard("LVCMOS33"))""".format(clk=pindb["CLK_50M"]))
