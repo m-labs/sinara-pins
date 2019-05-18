@@ -1,5 +1,3 @@
-import regex
-import openpyxl
 from itertools import count
 
 
@@ -15,6 +13,8 @@ class PinDB(dict):
 
 
 def read_file(filename, fpga_ic):
+    import regex
+
     pindb = PinDB()
     with open(filename, "r") as f:
         for line in f:
@@ -30,6 +30,8 @@ def read_file(filename, fpga_ic):
 
 
 def read_file_xlsx(filename):
+    import openpyxl
+
     pindb = PinDB()
     wb = openpyxl.load_workbook(filename)
     ws = wb.active

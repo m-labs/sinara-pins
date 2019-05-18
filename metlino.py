@@ -1,6 +1,6 @@
 import pin_utils as pu
 
-pindb = pu.read_file("Metlino_MCH_pins.txt", "IC33")
+pindb = pu.read_file_xlsx("Metlino.xlsx")
 
 pu.print_section("50MHz oscillator")
 print("""("clk50", 0, Pins("{clk}"), IOStandard("LVCMOS33"))""".format(clk=pindb["CLK_50M"]))
