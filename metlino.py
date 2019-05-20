@@ -29,20 +29,13 @@ pu.print_ddr3_decl(
 
 
 pu.print_section("EEMs via VHDCI carrier")
-# for VHDCI carrier v1.1
-vhdci_carrier_mapping = {
-    0: [0, 8, 2, 3, 4, 5, 6, 7],
-    1: [1, 9, 10, 11, 12, 13, 14, 15],
-    2: [17, 16, 24, 19, 20, 21, 22, 23],
-    3: [18, 25, 26, 27, 28, 29, 30, 31],
-}
 
 for vhdci in range(2):
     for vhdci_eem in range(4):
         eem = vhdci*4 + vhdci_eem
         print(f"(\"eem{eem}\", {{")
         for bit in range(8):
-            vhdci_pin_name = f"VHDCI{vhdci}.VHDCI{vhdci}_{vhdci_carrier_mapping[vhdci_eem][bit]}"
+            vhdci_pin_name = f"VHDCI{vhdci}.VHDCI{vhdci}_{vhdci_eem*8+bit}"
             for half in "np":
                 if bit == 0:
                     eem_pin_name = f"d{bit}_cc_{half}"
